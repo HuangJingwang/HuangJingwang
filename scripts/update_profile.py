@@ -43,7 +43,7 @@ def render(user, repos):
     text(30, 238, '  /  '.join(f'{k}: {v}' for k,v in languages.most_common()), 12)
     text(30, 266, 'UPDATED ' + datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC') + '  ·  PUBLIC DATA ONLY', 10, '#637493')
     parts.append('</g></svg>')
-    (ROOT/'assets/dashboard.svg').write_text('\n'.join(parts), encoding='utf-8')
+    (ROOT/'assets/signal.svg').write_text('\n'.join(parts), encoding='utf-8')
 
 if __name__ == '__main__':
     repos = []
