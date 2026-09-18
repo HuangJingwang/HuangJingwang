@@ -48,15 +48,15 @@ $ cat about.txt
 
 ### `03 / PUBLIC SIGNAL`　公开数据面板
 
-<img src="./assets/dashboard.svg" width="100%" alt="公开原创仓库数、Star 总数、关注者及仓库主语言分布；统计口径见图内说明" />
+<img src="./assets/dashboard.svg?v=live" width="100%" alt="公开原创仓库数、Star 总数、关注者及仓库主语言分布；统计口径见图内说明" />
 
 <sub>取自 GitHub 公开 API；自动刷新配置为每 6 小时一次，实际执行时间由 GitHub Actions 调度。</sub>
 
 ### `04 / CONTRIBUTION PLAYGROUND`　让小蛇吃掉贡献格子
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg" />
-  <img src="./assets/snake.svg" width="100%" alt="GitHub 贡献贪吃蛇；首次启用 Actions 后生成" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg?v=live" />
+  <img src="./assets/snake.svg?v=live" width="100%" alt="GitHub 真实贡献贪吃蛇动画" />
 </picture>
 
 ### `05 / FIELD NOTES`　写下来，免得下次再踩
