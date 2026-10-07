@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="174" viewBox="0 0 960 174" role="img" aria-label="RAG Knowledge Lab · 把检索过程摊开来看。">
+<title>RAG Knowledge Lab · 把检索过程摊开来看。</title>
+<defs>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#243143" stop-opacity=".93"/><stop offset=".55" stop-color="#243143" stop-opacity=".65"/><stop offset="1" stop-color="#243143" stop-opacity=".82"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff" stop-opacity=".42"/><stop offset=".48" stop-color="#ffffff" stop-opacity=".08"/><stop offset="1" stop-color="#ffffff" stop-opacity=".22"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#558dca" stop-opacity=".75"/><stop offset="1" stop-color="#558dca" stop-opacity="0"/></radialGradient>
+<filter id="shadow" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#142c50" flood-opacity=".12"/></filter>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+<style>.wave{animation:breathe 3.4s ease-in-out infinite alternate}@keyframes breathe{from{transform:scaleY(.5)}to{transform:scaleY(1)}}@media(prefers-reduced-motion:reduce){.wave{animation:none}}</style>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, 'PingFang SC', sans-serif">
+<ellipse cx="806.4" cy="84" rx="240.0" ry="90" fill="url(#halo)" opacity=".6" filter="url(#blur)"/>
+<rect x="16" y="12" width="928" height="141" rx="24" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="17" y="13" width="926" height="139" rx="23" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+<text x="48" y="43" fill="#a8b1bf" font-size="13" font-weight="500" text-anchor="start" letter-spacing="0">Knowledge &amp; retrieval</text>
+<text x="48" y="81" fill="#f5f7fa" font-size="31" font-weight="600" text-anchor="start" letter-spacing="-0.7">RAG Knowledge Lab</text>
+<text x="48" y="112" fill="#a8b1bf" font-size="20" font-weight="400" text-anchor="start" letter-spacing="0">把检索过程摊开来看。</text>
+<text x="900" y="105" fill="#8ebcff" font-size="45" font-weight="300" text-anchor="end" letter-spacing="-2">01</text>
+<text x="368" y="112" fill="#a8b1bf" font-size="18" font-weight="400" text-anchor="start" letter-spacing="0">原文、Chunk、向量检索与知识图谱。</text>
+</g></svg>

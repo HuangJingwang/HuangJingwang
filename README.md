@@ -11,7 +11,7 @@
 
 <br />
 
-### 🎙️ 最近的主线：Voice Agent
+### Voice Agent，最近在研究的事
 
 让 Agent 能听人说话、看屏幕，再通过 MCP 调用工具。最近的实践围绕 Pipecat 的 Pipeline 展开：音频怎么进出、回复怎么打断，以及生成的任务和文档怎么交给人确认。
 
@@ -22,16 +22,34 @@
 
 <br />
 
-### 🧪 实验与工具
+### 一些实验
 
-**[RAG Knowledge Lab](https://github.com/HuangJingwang/rag-knowledge-lab)** · 把检索过程摊开来看。<br />
-原文、Chunk、向量检索和知识图谱，放在一个可视化实验室里。
+<a href="https://github.com/HuangJingwang/rag-knowledge-lab">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-rag-dark-mobile.svg" />
+    <source media="(max-width: 600px)" srcset="./assets/project-rag-mobile.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-rag-dark.svg" />
+    <img src="./assets/project-rag.svg" width="100%" alt="RAG Knowledge Lab，查看项目代码" />
+  </picture>
+</a>
 
-**[ChatBot MCP](https://github.com/HuangJingwang/ChatBot-MCP)** · 给聊天机器人接上工具。<br />
-通过 MCP 连接外部服务与 API，折腾 Agent 怎么和实际应用交互。
+<a href="https://github.com/HuangJingwang/ChatBot-MCP">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-mcp-dark-mobile.svg" />
+    <source media="(max-width: 600px)" srcset="./assets/project-mcp-mobile.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-mcp-dark.svg" />
+    <img src="./assets/project-mcp.svg" width="100%" alt="ChatBot MCP，查看项目代码" />
+  </picture>
+</a>
 
-**[Change Crew](https://github.com/HuangJingwang/change-crew)** · 折腾编码 Agent 的协作。<br />
-面向 Codex 和兼容 SKILL.md 的编码 Agent，组织多智能体交付流程。
+<a href="https://github.com/HuangJingwang/change-crew">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/project-crew-dark-mobile.svg" />
+    <source media="(max-width: 600px)" srcset="./assets/project-crew-mobile.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-crew-dark.svg" />
+    <img src="./assets/project-crew.svg" width="100%" alt="Change Crew，查看项目代码" />
+  </picture>
+</a>
 
 <details>
 <summary>还有一些 Java 和开发工具项目</summary>
@@ -44,7 +62,7 @@
 
 <br />
 
-### ✍️ 最近写的
+### 最近写的
 
 <!-- BLOG-POST-LIST:START -->
 - [从 RAG 到 OKF 0.2：让会议助手用对知识（上）](https://www.asterh.me/posts/rag-to-okf-02-part-1)

@@ -1,36 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="330" viewBox="0 0 960 330" role="img" aria-label="Sincerelyplz, exploring Voice Agents">
-<title>Sincerelyplz · Exploring Voice Agents</title>
-<style>.bar{animation:wave 2.8s ease-in-out infinite alternate}@keyframes wave{from{transform:scaleY(.35)}to{transform:scaleY(1)}}@media(prefers-reduced-motion:reduce){.bar{animation:none}}</style>
-<g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
-<circle cx="29" cy="23" r="4" fill="#68e0c2"/>
-<text x="43" y="27" font-size="12" fill="#919da8" letter-spacing="2">PERSONAL LAB / NOW EXPLORING</text>
-<text x="24" y="86" font-size="48" font-weight="700" fill="#f0f6fc" letter-spacing="-2">Sincerelyplz</text>
-<text x="21" y="176" font-size="76" font-weight="700" fill="#68e0c2" letter-spacing="-3">Voice Agent<tspan font-size="41">_</tspan></text>
-<text x="24" y="218" font-size="18" fill="#f0f6fc">Listen. Think. Speak.</text>
-<g transform="translate(668.0 160)"><rect class="bar" x="-3" y="-8.6" width="6" height="17.2" rx="3" fill="#68e0c2" opacity="0.45" style="animation-delay:-0.00s"/></g>
-<g transform="translate(678.0 160)"><rect class="bar" x="-3" y="-13.5" width="6" height="26.9" rx="3" fill="#68e0c2" opacity="0.51" style="animation-delay:-0.19s"/></g>
-<g transform="translate(688.0 160)"><rect class="bar" x="-3" y="-15.2" width="6" height="30.3" rx="3" fill="#68e0c2" opacity="0.53" style="animation-delay:-0.38s"/></g>
-<g transform="translate(698.0 160)"><rect class="bar" x="-3" y="-15.6" width="6" height="31.2" rx="3" fill="#68e0c2" opacity="0.53" style="animation-delay:-0.57s"/></g>
-<g transform="translate(708.0 160)"><rect class="bar" x="-3" y="-24.7" width="6" height="49.4" rx="3" fill="#68e0c2" opacity="0.64" style="animation-delay:-0.76s"/></g>
-<g transform="translate(718.0 160)"><rect class="bar" x="-3" y="-22.4" width="6" height="44.9" rx="3" fill="#68e0c2" opacity="0.61" style="animation-delay:-0.95s"/></g>
-<g transform="translate(728.0 160)"><rect class="bar" x="-3" y="-29.8" width="6" height="59.7" rx="3" fill="#68e0c2" opacity="0.70" style="animation-delay:-1.14s"/></g>
-<g transform="translate(738.0 160)"><rect class="bar" x="-3" y="-39.1" width="6" height="78.1" rx="3" fill="#68e0c2" opacity="0.80" style="animation-delay:-1.33s"/></g>
-<g transform="translate(748.0 160)"><rect class="bar" x="-3" y="-26.1" width="6" height="52.2" rx="3" fill="#68e0c2" opacity="0.65" style="animation-delay:-1.52s"/></g>
-<g transform="translate(758.0 160)"><rect class="bar" x="-3" y="-47.1" width="6" height="94.3" rx="3" fill="#68e0c2" opacity="0.90" style="animation-delay:-1.71s"/></g>
-<g transform="translate(768.0 160)"><rect class="bar" x="-3" y="-47.2" width="6" height="94.4" rx="3" fill="#68e0c2" opacity="0.90" style="animation-delay:-1.90s"/></g>
-<g transform="translate(778.0 160)"><rect class="bar" x="-3" y="-37.3" width="6" height="74.6" rx="3" fill="#68e0c2" opacity="0.78" style="animation-delay:-2.09s"/></g>
-<g transform="translate(788.0 160)"><rect class="bar" x="-3" y="-55.9" width="6" height="111.8" rx="3" fill="#68e0c2" opacity="1.00" style="animation-delay:-2.28s"/></g>
-<g transform="translate(798.0 160)"><rect class="bar" x="-3" y="-41.9" width="6" height="83.7" rx="3" fill="#68e0c2" opacity="0.84" style="animation-delay:-2.47s"/></g>
-<g transform="translate(808.0 160)"><rect class="bar" x="-3" y="-43.8" width="6" height="87.6" rx="3" fill="#68e0c2" opacity="0.86" style="animation-delay:-2.66s"/></g>
-<g transform="translate(818.0 160)"><rect class="bar" x="-3" y="-48.7" width="6" height="97.4" rx="3" fill="#68e0c2" opacity="0.92" style="animation-delay:-2.85s"/></g>
-<g transform="translate(828.0 160)"><rect class="bar" x="-3" y="-27.4" width="6" height="54.8" rx="3" fill="#68e0c2" opacity="0.67" style="animation-delay:-3.04s"/></g>
-<g transform="translate(838.0 160)"><rect class="bar" x="-3" y="-37.6" width="6" height="75.2" rx="3" fill="#68e0c2" opacity="0.79" style="animation-delay:-3.23s"/></g>
-<g transform="translate(848.0 160)"><rect class="bar" x="-3" y="-31.8" width="6" height="63.6" rx="3" fill="#68e0c2" opacity="0.72" style="animation-delay:-3.42s"/></g>
-<g transform="translate(858.0 160)"><rect class="bar" x="-3" y="-20.2" width="6" height="40.4" rx="3" fill="#68e0c2" opacity="0.58" style="animation-delay:-3.61s"/></g>
-<g transform="translate(868.0 160)"><rect class="bar" x="-3" y="-24.6" width="6" height="49.1" rx="3" fill="#68e0c2" opacity="0.64" style="animation-delay:-3.80s"/></g>
-<g transform="translate(878.0 160)"><rect class="bar" x="-3" y="-16.9" width="6" height="33.8" rx="3" fill="#68e0c2" opacity="0.55" style="animation-delay:-3.99s"/></g>
-<g transform="translate(888.0 160)"><rect class="bar" x="-3" y="-14.3" width="6" height="28.7" rx="3" fill="#68e0c2" opacity="0.52" style="animation-delay:-4.18s"/></g>
-<g transform="translate(898.0 160)"><rect class="bar" x="-3" y="-13.7" width="6" height="27.4" rx="3" fill="#68e0c2" opacity="0.51" style="animation-delay:-4.37s"/></g>
-<g transform="translate(908.0 160)"><rect class="bar" x="-3" y="-9.2" width="6" height="18.3" rx="3" fill="#68e0c2" opacity="0.46" style="animation-delay:-4.56s"/></g>
-<text x="24" y="301" font-size="13" letter-spacing="1" fill="#919da8">PIPECAT / REALTIME / MCP / RAG</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="398" viewBox="0 0 960 398" role="img" aria-label="Sincerelyplz · Voice Agent, RAG and developer tools">
+<title>Sincerelyplz · Voice Agent, RAG and developer tools</title>
+<defs>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#243143" stop-opacity=".93"/><stop offset=".55" stop-color="#243143" stop-opacity=".65"/><stop offset="1" stop-color="#243143" stop-opacity=".82"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff" stop-opacity=".42"/><stop offset=".48" stop-color="#ffffff" stop-opacity=".08"/><stop offset="1" stop-color="#ffffff" stop-opacity=".22"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#558dca" stop-opacity=".75"/><stop offset="1" stop-color="#558dca" stop-opacity="0"/></radialGradient>
+<filter id="shadow" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#142c50" flood-opacity=".12"/></filter>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+<style>.wave{animation:breathe 3.4s ease-in-out infinite alternate}@keyframes breathe{from{transform:scaleY(.5)}to{transform:scaleY(1)}}@media(prefers-reduced-motion:reduce){.wave{animation:none}}</style>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, 'PingFang SC', sans-serif">
+<text x="480.0" y="72" fill="#f5f7fa" font-size="52" font-weight="600" text-anchor="middle" letter-spacing="-1.8">Sincerelyplz</text>
+<text x="480.0" y="108" fill="#a8b1bf" font-size="19" font-weight="400" text-anchor="middle" letter-spacing="-0.2">Build something. Figure it out. Write it down.</text>
+<ellipse cx="643.2" cy="242" rx="249.60000000000002" ry="110" fill="url(#halo)" filter="url(#blur)"/>
+<ellipse cx="288.0" cy="263" rx="211.2" ry="85" fill="url(#halo)" opacity=".4"/>
+<rect x="20" y="147" width="920" height="209" rx="28" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="21" y="148" width="918" height="207" rx="27" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+<text x="56" y="181" fill="#a8b1bf" font-size="12" font-weight="500" text-anchor="start" letter-spacing="1.3">CURRENTLY EXPLORING</text>
+<text x="56" y="227" fill="#f5f7fa" font-size="43" font-weight="600" text-anchor="start" letter-spacing="-1.4">Voice Agent</text>
+<text x="56" y="260" fill="#a8b1bf" font-size="19" font-weight="400" text-anchor="start" letter-spacing="0">Pipecat · Realtime audio · MCP</text>
+<text x="56" y="307" fill="#a8b1bf" font-size="18" font-weight="400" text-anchor="start" letter-spacing="0">研究实时语音交互，也记录实践里的问题。</text>
+<rect x="630" y="175" width="265" height="151" rx="24" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="631" y="176" width="263" height="149" rx="23" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+<g transform="translate(674 238)"><rect class="wave" x="-2.5" y="-8.5" width="5" height="17.0" rx="2.5" fill="#8ebcff" opacity="0.56" style="animation-delay:-0.00s"/></g>
+<g transform="translate(682 238)"><rect class="wave" x="-2.5" y="-12.6" width="5" height="25.3" rx="2.5" fill="#8ebcff" opacity="0.61" style="animation-delay:-0.15s"/></g>
+<g transform="translate(690 238)"><rect class="wave" x="-2.5" y="-14.0" width="5" height="28.0" rx="2.5" fill="#8ebcff" opacity="0.63" style="animation-delay:-0.30s"/></g>
+<g transform="translate(698 238)"><rect class="wave" x="-2.5" y="-14.3" width="5" height="28.5" rx="2.5" fill="#8ebcff" opacity="0.63" style="animation-delay:-0.45s"/></g>
+<g transform="translate(706 238)"><rect class="wave" x="-2.5" y="-21.3" width="5" height="42.7" rx="2.5" fill="#8ebcff" opacity="0.72" style="animation-delay:-0.60s"/></g>
+<g transform="translate(714 238)"><rect class="wave" x="-2.5" y="-19.3" width="5" height="38.7" rx="2.5" fill="#8ebcff" opacity="0.70" style="animation-delay:-0.75s"/></g>
+<g transform="translate(722 238)"><rect class="wave" x="-2.5" y="-24.7" width="5" height="49.3" rx="2.5" fill="#8ebcff" opacity="0.77" style="animation-delay:-0.90s"/></g>
+<g transform="translate(730 238)"><rect class="wave" x="-2.5" y="-31.0" width="5" height="62.0" rx="2.5" fill="#8ebcff" opacity="0.85" style="animation-delay:-1.05s"/></g>
+<g transform="translate(738 238)"><rect class="wave" x="-2.5" y="-21.3" width="5" height="42.5" rx="2.5" fill="#8ebcff" opacity="0.72" style="animation-delay:-1.20s"/></g>
+<g transform="translate(746 238)"><rect class="wave" x="-2.5" y="-35.4" width="5" height="70.7" rx="2.5" fill="#8ebcff" opacity="0.90" style="animation-delay:-1.35s"/></g>
+<g transform="translate(754 238)"><rect class="wave" x="-2.5" y="-34.6" width="5" height="69.2" rx="2.5" fill="#8ebcff" opacity="0.89" style="animation-delay:-1.50s"/></g>
+<g transform="translate(762 238)"><rect class="wave" x="-2.5" y="-27.4" width="5" height="54.9" rx="2.5" fill="#8ebcff" opacity="0.80" style="animation-delay:-1.65s"/></g>
+<g transform="translate(770 238)"><rect class="wave" x="-2.5" y="-38.4" width="5" height="76.8" rx="2.5" fill="#8ebcff" opacity="0.94" style="animation-delay:-1.80s"/></g>
+<g transform="translate(778 238)"><rect class="wave" x="-2.5" y="-28.9" width="5" height="57.8" rx="2.5" fill="#8ebcff" opacity="0.82" style="animation-delay:-1.95s"/></g>
+<g transform="translate(786 238)"><rect class="wave" x="-2.5" y="-29.3" width="5" height="58.5" rx="2.5" fill="#8ebcff" opacity="0.83" style="animation-delay:-2.10s"/></g>
+<g transform="translate(794 238)"><rect class="wave" x="-2.5" y="-31.2" width="5" height="62.5" rx="2.5" fill="#8ebcff" opacity="0.85" style="animation-delay:-2.25s"/></g>
+<g transform="translate(802 238)"><rect class="wave" x="-2.5" y="-18.6" width="5" height="37.2" rx="2.5" fill="#8ebcff" opacity="0.69" style="animation-delay:-2.40s"/></g>
+<g transform="translate(810 238)"><rect class="wave" x="-2.5" y="-23.5" width="5" height="47.0" rx="2.5" fill="#8ebcff" opacity="0.75" style="animation-delay:-2.55s"/></g>
+<g transform="translate(818 238)"><rect class="wave" x="-2.5" y="-19.8" width="5" height="39.7" rx="2.5" fill="#8ebcff" opacity="0.70" style="animation-delay:-2.70s"/></g>
+<g transform="translate(826 238)"><rect class="wave" x="-2.5" y="-13.5" width="5" height="27.0" rx="2.5" fill="#8ebcff" opacity="0.62" style="animation-delay:-2.85s"/></g>
+<g transform="translate(834 238)"><rect class="wave" x="-2.5" y="-15.2" width="5" height="30.5" rx="2.5" fill="#8ebcff" opacity="0.65" style="animation-delay:-3.00s"/></g>
+<g transform="translate(842 238)"><rect class="wave" x="-2.5" y="-11.3" width="5" height="22.6" rx="2.5" fill="#8ebcff" opacity="0.59" style="animation-delay:-3.15s"/></g>
+<g transform="translate(850 238)"><rect class="wave" x="-2.5" y="-9.9" width="5" height="19.8" rx="2.5" fill="#8ebcff" opacity="0.58" style="animation-delay:-3.30s"/></g>
+<text x="762" y="279" fill="#a8b1bf" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">Listen. Think. Speak.</text>
 </g></svg>
