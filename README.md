@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/voice-lab.png" width="100%" alt="像素风语音实验室：戴耳机的小猫、麦克风、电脑与机器人，在夜色里折腾 Voice Agent" />
+  <img src="./assets/voice-lab.png" width="100%" alt="像素风语音实验室：戴耳机的小猫、麦克风、电脑与机器人，在夜色里搭建 Voice Agent" />
 </p>
 
 <h3 align="center">Hi, I'm Sincerelyplz 👋</h3>
@@ -19,13 +19,13 @@
   <a href="https://github.com/HuangJingwang/practical-tech-writing">✍️ 技术写作</a>
 </p>
 
-最近在研究 **Voice Agent**，用 Pipecat 折腾实时语音交互。也做一点 RAG、会议助手和开发工具，遇到有意思的问题就写下来。
+我在用 **Pipecat** 做语音会议助手。语音对话、投屏理解、MCP 工具调用，开发过程记在博客里。
 
-### 🎙️ 最近在折腾什么
+### 🎙️ Voice Agent
 
-- **语音对话**：音频怎么进出 Pipecat，Agent 怎么听、怎么回答、怎么被打断。
-- **看屏幕、调工具**：让 Agent 理解投屏，再通过 MCP 调用业务工具。
-- **会议里的知识**：用 RAG 补充上下文，生成的任务和文档先交给人确认。
+- 接入 Agora 的音频，处理语音识别、回复和打断。
+- 读取会议投屏，通过 MCP 调用业务工具。
+- 用 RAG 查找相关资料，生成的任务和文档由人确认。
 
 📖 **[Pipecat：我的 Voice Agent 实践](https://www.asterh.me/posts/juejin-7680833071233531938)**<br />
 从 Agora 接入到语音对话、投屏理解和工具调用，记录一个会议助手 MVP 的实现过程。
@@ -47,7 +47,7 @@
 
 - **[RAG Knowledge Lab](https://github.com/HuangJingwang/rag-knowledge-lab)**，把原文、Chunk、向量检索与知识图谱摊开来看。
 - **[ChatBot MCP](https://github.com/HuangJingwang/ChatBot-MCP)**，给聊天机器人接上外部服务和工具。
-- **[Change Crew](https://github.com/HuangJingwang/change-crew)**，折腾 Codex 和编码 Agent 的多智能体协作。
+- **[Change Crew](https://github.com/HuangJingwang/change-crew)**，用于 Codex 和编码 Agent 的多智能体协作。
 
 <details>
 <summary>展开其他项目</summary>
