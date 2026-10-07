@@ -17,20 +17,19 @@ def get(path):
     with urlopen(Request('https://api.github.com/' + path, headers=headers), timeout=30) as response:
         return json.load(response)
 
-def render(user, repos):
+def render(user, repos, dark=False):
     owned = [r for r in repos if not r['fork'] and not r.get('private')]
     languages = Counter(r['language'] for r in owned if r.get('language'))
     parts = ['<svg xmlns="http://www.w3.org/2000/svg" width="960" height="285" viewBox="0 0 960 285">',
-             '<rect width="960" height="285" rx="18" fill="#0c1020"/>',
+             '<style>text{fill:#57606a}.accent{fill:#0969da}</style>' if not dark else '<style>text{fill:#9198a1}.accent{fill:#79c0ff}</style>',
              '<g font-family="monospace">']
-    def text(x, y, s, size=14, color='#95a5c8'):
-        parts.append(f'<text x="{x}" y="{y}" fill="{color}" font-size="{size}">{escape(str(s))}</text>')
-    text(30, 34, 'PUBLIC SIGNAL / GITHUB API', 12, '#67e8f9')
+    def text(x, y, s, size=14):
+        parts.append(f'<text class="{"accent" if size >= 30 else "label"}" x="{x}" y="{y}" font-size="{size}">{escape(str(s))}</text>')
+    text(30, 34, 'GITHUB / PUBLIC DATA', 12)
     metrics = [(len(owned), 'ORIGINAL PUBLIC REPOS'), (sum(r['stargazers_count'] for r in owned), 'STARS / ORIGINAL REPOS'), (user['followers'], 'FOLLOWERS')]
     for i, (value, label) in enumerate(metrics):
         x = 30 + i * 312
-        parts.append(f'<rect x="{x}" y="54" width="288" height="108" rx="12" fill="#151e33" stroke="#2c3554"/>')
-        text(x+20, 108, value, 38, ['#67e8f9','#c4b5fd','#f0abfc'][i])
+        text(x+20, 108, value, 38)
         text(x+20, 139, label, 11)
     text(30, 191, 'PRIMARY LANGUAGE / REPOSITORY COUNT (NOT CODE VOLUME)', 11)
     colors = ['#67e8f9','#a78bfa','#f0abfc','#fbbf24','#34d399','#60a5fa']
@@ -41,9 +40,9 @@ def render(user, repos):
         parts.append(f'<rect x="{x:.2f}" y="204" width="{w:.2f}" height="9" fill="{colors[i%len(colors)]}"/>')
         x += w
     text(30, 238, '  /  '.join(f'{k}: {v}' for k,v in languages.most_common()), 12)
-    text(30, 266, 'UPDATED ' + datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC') + '  ·  PUBLIC DATA ONLY', 10, '#637493')
+    text(30, 266, 'UPDATED ' + datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC') + '  ·  PUBLIC DATA ONLY', 10)
     parts.append('</g></svg>')
-    (ROOT/'assets/signal.svg').write_text('\n'.join(parts), encoding='utf-8')
+    (ROOT / ('assets/signal-dark.svg' if dark else 'assets/signal.svg')).write_text('\n'.join(parts), encoding='utf-8')
 
 if __name__ == '__main__':
     repos = []
@@ -54,4 +53,6 @@ if __name__ == '__main__':
         if len(batch) < 100:
             break
         page += 1
-    render(get(f'users/{USER}'), repos)
+    user = get(f'users/{USER}')
+    render(user, repos)
+    render(user, repos, dark=True)

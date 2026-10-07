@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="44" viewBox="0 0 480 44" role="img" aria-label="Code. Experiment. Write.">
+<title>Code. Experiment. Write.</title>
+<style>
+.line { clip-path: inset(0 100% 0 0); animation: type 10s steps(24, end) infinite; }
+@keyframes type { 0%, 5% { clip-path: inset(0 100% 0 0); } 45%, 85% { clip-path: inset(0 0 0 0); } 100% { clip-path: inset(0 100% 0 0); } }
+@media (prefers-reduced-motion: reduce) { .line { animation: none; clip-path: none; } }
+</style>
+<text class="line" x="0" y="30" font-family="monospace" font-size="26" fill="#0969da">Code. Experiment. Write.</text>
+</svg>

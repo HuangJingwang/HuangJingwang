@@ -1,4 +1,4 @@
-name: Refresh profile art
+name: Refresh profile
 on:
   workflow_dispatch:
   schedule:
@@ -8,6 +8,7 @@ on:
     paths:
       - 'scripts/**'
       - '.github/workflows/profile.yml'
+      - 'README.md'
 permissions:
   contents: write
 concurrency:
@@ -16,28 +17,34 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Test blog refresh
+        run: python -m unittest discover -s scripts -p 'test_*.py'
       - name: Refresh public metrics
         run: python scripts/update_profile.py
         env:
           GH_TOKEN: ${{ github.token }}
-      - name: Generate contribution snakes
-        uses: Platane/snk/svg-only@v3
+      - name: Refresh latest three blog posts
+        run: python scripts/update_blog.py
+      - uses: actions/setup-node@v4
         with:
-          github_user_name: HuangJingwang
-          outputs: |
-            assets/contribution-snake.svg?color_snake=%237c3aed
-            assets/contribution-snake-dark.svg?palette=github-dark&color_snake=%2367e8f9
-      - name: Commit refreshed assets
+          node-version: '22'
+      - name: Generate Pac-Man contribution graphs
+        run: |
+          npm exec --yes --package=pacman-contribution-graph@5.3.1 -- pacman-contribution-graph --game pacman --platform github --username HuangJingwang --gameTheme github --output assets/pacman-contribution-graph.svg
+          npm exec --yes --package=pacman-contribution-graph@5.3.1 -- pacman-contribution-graph --game pacman --platform github --username HuangJingwang --gameTheme github-dark --output assets/pacman-contribution-graph-dark.svg
+          python scripts/prepare_pacman.py
+      - name: Commit refreshed profile
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/signal.svg assets/contribution-snake.svg assets/contribution-snake-dark.svg
+          git add README.md assets/signal.svg assets/signal-dark.svg assets/pacman-contribution-graph*.svg
           if ! git diff --cached --quiet; then
-            git commit -m 'chore: refresh profile artwork'
+            git commit -m 'chore: refresh profile content [skip ci]'
             git push
           fi
