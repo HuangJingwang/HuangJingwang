@@ -17,4 +17,6 @@ if __name__ == '__main__':
     for theme in ('', '-dark'):
         source = ROOT / 'assets' / f'pacman-contribution-graph{theme}.svg'
         target = ROOT / 'assets' / f'pacman-contribution-graph{theme}-still.svg'
-        target.write_text(still_graph(source.read_text(encoding='utf-8')), encoding='utf-8')
+        svg = '\n'.join(line.rstrip() for line in source.read_text(encoding='utf-8').splitlines()) + '\n'
+        source.write_text(svg, encoding='utf-8')
+        target.write_text('\n'.join(line.rstrip() for line in still_graph(svg).splitlines()) + '\n', encoding='utf-8')
