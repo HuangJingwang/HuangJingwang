@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="48" viewBox="0 0 550 48" role="img" aria-label="Exploring Voice Agents. Building with Pipecat and MCP. Code, experiment, write.">
+<title>Exploring Voice Agents</title>
+<style>.line{opacity:0;clip-path:inset(0 100% 0 0);animation:type 18s steps(28,end) infinite}@keyframes type{0%{opacity:1;clip-path:inset(0 100% 0 0)}18%,26%{opacity:1;clip-path:inset(0 0 0 0)}32%{opacity:1;clip-path:inset(0 100% 0 0)}33.3%{opacity:1}33.4%,100%{opacity:0}}@media(prefers-reduced-motion:reduce){.line{animation:none;display:none}.first{display:block;opacity:1;clip-path:none}}</style>
+<text class="line first" x="275" y="32" text-anchor="middle" fill="#a35429" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="23" style="animation-delay:0s">Exploring Voice Agents</text>
+<text class="line " x="275" y="32" text-anchor="middle" fill="#a35429" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="23" style="animation-delay:6s">Building with Pipecat &amp; MCP</text>
+<text class="line " x="275" y="32" text-anchor="middle" fill="#a35429" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="23" style="animation-delay:12s">Code, experiment, write.</text>
+</svg>
