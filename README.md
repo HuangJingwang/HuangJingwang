@@ -6,6 +6,8 @@
 
 <p align="center">
   <picture>
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/intro-dark-still.svg" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/intro-still.svg" />
     <source media="(prefers-color-scheme: dark)" srcset="./assets/intro-dark.svg" />
     <img src="./assets/intro.svg" width="550" alt="Exploring Voice Agents · Building with Pipecat & MCP · Code, experiment, write." />
   </picture>
