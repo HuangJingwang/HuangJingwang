@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="390" viewBox="0 0 480 390" role="img" aria-label="Sincerelyplz, exploring Voice Agents">
+<title>Sincerelyplz · Exploring Voice Agents</title>
+<style>.bar{animation:wave 2.8s ease-in-out infinite alternate}@keyframes wave{from{transform:scaleY(.35)}to{transform:scaleY(1)}}@media(prefers-reduced-motion:reduce){.bar{animation:none}}</style>
+<g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+<circle cx="27" cy="23" r="4" fill="#087f72"/>
+<text x="41" y="27" font-size="12" fill="#60737a" letter-spacing="2">PERSONAL LAB / NOW EXPLORING</text>
+<text x="22" y="86" font-size="36" font-weight="700" fill="#172c33" letter-spacing="-2">Sincerelyplz</text>
+<text x="19" y="160" font-size="54" font-weight="700" fill="#087f72" letter-spacing="-3">Voice Agent<tspan font-size="29">_</tspan></text>
+<text x="22" y="197" font-size="16" fill="#172c33">Listen. Think. Speak.</text>
+<g transform="translate(60.0 275)"><rect class="bar" x="-3" y="-8.5" width="6" height="17.1" rx="3" fill="#087f72" opacity="0.45" style="animation-delay:-0.00s"/></g>
+<g transform="translate(72.0 275)"><rect class="bar" x="-3" y="-12.8" width="6" height="25.5" rx="3" fill="#087f72" opacity="0.50" style="animation-delay:-0.19s"/></g>
+<g transform="translate(84.0 275)"><rect class="bar" x="-3" y="-13.9" width="6" height="27.8" rx="3" fill="#087f72" opacity="0.51" style="animation-delay:-0.38s"/></g>
+<g transform="translate(96.0 275)"><rect class="bar" x="-3" y="-13.9" width="6" height="27.8" rx="3" fill="#087f72" opacity="0.51" style="animation-delay:-0.57s"/></g>
+<g transform="translate(108.0 275)"><rect class="bar" x="-3" y="-20.9" width="6" height="41.8" rx="3" fill="#087f72" opacity="0.59" style="animation-delay:-0.76s"/></g>
+<g transform="translate(120.0 275)"><rect class="bar" x="-3" y="-18.8" width="6" height="37.7" rx="3" fill="#087f72" opacity="0.57" style="animation-delay:-0.95s"/></g>
+<g transform="translate(132.0 275)"><rect class="bar" x="-3" y="-24.4" width="6" height="48.9" rx="3" fill="#087f72" opacity="0.63" style="animation-delay:-1.14s"/></g>
+<g transform="translate(144.0 275)"><rect class="bar" x="-3" y="-31.6" width="6" height="63.2" rx="3" fill="#087f72" opacity="0.72" style="animation-delay:-1.33s"/></g>
+<g transform="translate(156.0 275)"><rect class="bar" x="-3" y="-21.7" width="6" height="43.5" rx="3" fill="#087f72" opacity="0.60" style="animation-delay:-1.52s"/></g>
+<g transform="translate(168.0 275)"><rect class="bar" x="-3" y="-39.0" width="6" height="77.9" rx="3" fill="#087f72" opacity="0.80" style="animation-delay:-1.71s"/></g>
+<g transform="translate(180.0 275)"><rect class="bar" x="-3" y="-40.1" width="6" height="80.2" rx="3" fill="#087f72" opacity="0.82" style="animation-delay:-1.90s"/></g>
+<g transform="translate(192.0 275)"><rect class="bar" x="-3" y="-33.1" width="6" height="66.2" rx="3" fill="#087f72" opacity="0.73" style="animation-delay:-2.09s"/></g>
+<g transform="translate(204.0 275)"><rect class="bar" x="-3" y="-51.6" width="6" height="103.2" rx="3" fill="#087f72" opacity="0.95" style="animation-delay:-2.28s"/></g>
+<g transform="translate(216.0 275)"><rect class="bar" x="-3" y="-41.0" width="6" height="82.0" rx="3" fill="#087f72" opacity="0.83" style="animation-delay:-2.47s"/></g>
+<g transform="translate(228.0 275)"><rect class="bar" x="-3" y="-45.8" width="6" height="91.6" rx="3" fill="#087f72" opacity="0.88" style="animation-delay:-2.66s"/></g>
+<g transform="translate(240.0 275)"><rect class="bar" x="-3" y="-55.0" width="6" height="110.1" rx="3" fill="#087f72" opacity="0.99" style="animation-delay:-2.85s"/></g>
+<g transform="translate(252.0 275)"><rect class="bar" x="-3" y="-33.1" width="6" height="66.2" rx="3" fill="#087f72" opacity="0.73" style="animation-delay:-3.04s"/></g>
+<g transform="translate(264.0 275)"><rect class="bar" x="-3" y="-50.6" width="6" height="101.2" rx="3" fill="#087f72" opacity="0.94" style="animation-delay:-3.23s"/></g>
+<g transform="translate(276.0 275)"><rect class="bar" x="-3" y="-47.0" width="6" height="94.0" rx="3" fill="#087f72" opacity="0.90" style="animation-delay:-3.42s"/></g>
+<g transform="translate(288.0 275)"><rect class="bar" x="-3" y="-31.7" width="6" height="63.4" rx="3" fill="#087f72" opacity="0.72" style="animation-delay:-3.61s"/></g>
+<g transform="translate(300.0 275)"><rect class="bar" x="-3" y="-44.7" width="6" height="89.4" rx="3" fill="#087f72" opacity="0.87" style="animation-delay:-3.80s"/></g>
+<g transform="translate(312.0 275)"><rect class="bar" x="-3" y="-32.4" width="6" height="64.8" rx="3" fill="#087f72" opacity="0.73" style="animation-delay:-3.99s"/></g>
+<g transform="translate(324.0 275)"><rect class="bar" x="-3" y="-29.8" width="6" height="59.6" rx="3" fill="#087f72" opacity="0.70" style="animation-delay:-4.18s"/></g>
+<g transform="translate(336.0 275)"><rect class="bar" x="-3" y="-32.1" width="6" height="64.1" rx="3" fill="#087f72" opacity="0.72" style="animation-delay:-4.37s"/></g>
+<g transform="translate(348.0 275)"><rect class="bar" x="-3" y="-18.9" width="6" height="37.8" rx="3" fill="#087f72" opacity="0.57" style="animation-delay:-4.56s"/></g>
+<g transform="translate(360.0 275)"><rect class="bar" x="-3" y="-22.7" width="6" height="45.5" rx="3" fill="#087f72" opacity="0.61" style="animation-delay:-4.75s"/></g>
+<g transform="translate(372.0 275)"><rect class="bar" x="-3" y="-19.7" width="6" height="39.3" rx="3" fill="#087f72" opacity="0.58" style="animation-delay:-4.94s"/></g>
+<g transform="translate(384.0 275)"><rect class="bar" x="-3" y="-12.8" width="6" height="25.5" rx="3" fill="#087f72" opacity="0.50" style="animation-delay:-5.13s"/></g>
+<g transform="translate(396.0 275)"><rect class="bar" x="-3" y="-15.1" width="6" height="30.2" rx="3" fill="#087f72" opacity="0.53" style="animation-delay:-5.32s"/></g>
+<g transform="translate(408.0 275)"><rect class="bar" x="-3" y="-11.5" width="6" height="23.1" rx="3" fill="#087f72" opacity="0.48" style="animation-delay:-5.51s"/></g>
+<g transform="translate(420.0 275)"><rect class="bar" x="-3" y="-9.9" width="6" height="19.9" rx="3" fill="#087f72" opacity="0.47" style="animation-delay:-5.70s"/></g>
+<text x="22" y="368" font-size="12" letter-spacing="1" fill="#60737a">PIPECAT / REALTIME / MCP / RAG</text>
+</g></svg>

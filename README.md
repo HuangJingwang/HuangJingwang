@@ -1,35 +1,50 @@
-# Sincerelyplz
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/typing-dark.svg" />
-  <img src="./assets/typing.svg" width="480" alt="Code. Experiment. Write." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/voice-header-dark-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="./assets/voice-header-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/voice-header-dark.svg" />
+  <img src="./assets/voice-header.svg" width="100%" alt="Sincerelyplz · 最近在研究 Voice Agent · Listen. Think. Speak." />
 </picture>
 
-折腾 RAG 和 Agent，做一点开发工具，也把过程写下来。
+最近在研究 **Voice Agent**，用 Pipecat 折腾实时语音交互，也在做 RAG、会议助手和开发工具。遇到有意思的问题，就写下来。
 
-[个人博客](https://www.asterh.me/) · [全部项目](https://github.com/HuangJingwang?tab=repositories) · [技术写作](https://github.com/HuangJingwang/practical-tech-writing)
-
-<sub>Java / Python / TypeScript / Kotlin · RAG & MCP</sub>
+[个人博客 ↗](https://www.asterh.me/) &nbsp; · &nbsp; [项目代码 ↗](https://github.com/HuangJingwang?tab=repositories) &nbsp; · &nbsp; [技术写作 ↗](https://github.com/HuangJingwang/practical-tech-writing)
 
 <br />
 
-### 最近在做
+### 🎙️ 最近的主线：Voice Agent
 
-**[RAG Knowledge Lab](https://github.com/HuangJingwang/rag-knowledge-lab)**<br />
-可视化探索原文、Chunk、向量检索与知识图谱。
+让 Agent 能听人说话、看屏幕，再通过 MCP 调用工具。最近的实践围绕 Pipecat 的 Pipeline 展开：音频怎么进出、回复怎么打断，以及生成的任务和文档怎么交给人确认。
 
-**[Executable DDD](https://github.com/HuangJingwang/executable-ddd)**<br />
-把 DDD 边界落到 Java 代码、测试和可执行约束。
+**[Pipecat：我的 Voice Agent 实践 →](https://www.asterh.me/posts/juejin-7680833071233531938)**<br />
+从 Agora 接入到语音对话、投屏理解和工具调用，记录一个会议助手 MVP 的实现过程。
 
-**[Easy Yapi · Micronaut](https://github.com/HuangJingwang/easy-yapi-micronaut)**<br />
-为 easy-yapi 增加 Micronaut 注解识别与 JDK 21 支持。
-
-**[Change Crew](https://github.com/HuangJingwang/change-crew)**<br />
-面向编码 Agent 的多智能体交付工作流。
+[会议界面与交互：Tana 带来的启发](https://www.asterh.me/posts/juejin-7679977795863937064) · [知识检索：从 RAG 到 OKF 0.2](https://www.asterh.me/posts/rag-to-okf-02-part-1)
 
 <br />
 
-### 写过一些
+### 🧪 实验与工具
+
+**[RAG Knowledge Lab](https://github.com/HuangJingwang/rag-knowledge-lab)** · 把检索过程摊开来看。<br />
+原文、Chunk、向量检索和知识图谱，放在一个可视化实验室里。
+
+**[ChatBot MCP](https://github.com/HuangJingwang/ChatBot-MCP)** · 给聊天机器人接上工具。<br />
+通过 MCP 连接外部服务与 API，折腾 Agent 怎么和实际应用交互。
+
+**[Change Crew](https://github.com/HuangJingwang/change-crew)** · 折腾编码 Agent 的协作。<br />
+面向 Codex 和兼容 SKILL.md 的编码 Agent，组织多智能体交付流程。
+
+<details>
+<summary>还有一些 Java 和开发工具项目</summary>
+
+- **[Executable DDD](https://github.com/HuangJingwang/executable-ddd)**，把 DDD 边界落到 Java 代码、测试和可执行约束。
+- **[Easy Yapi · Micronaut](https://github.com/HuangJingwang/easy-yapi-micronaut)**，为 easy-yapi 增加 Micronaut 注解识别与 JDK 21 支持。
+- **[BrushUp](https://github.com/HuangJingwang/brushup)**，刷题同步、间隔复习与 AI 代码分析。
+
+</details>
+
+<br />
+
+### ✍️ 最近写的
 
 <!-- BLOG-POST-LIST:START -->
 - [从 RAG 到 OKF 0.2：让会议助手用对知识（上）](https://www.asterh.me/posts/rag-to-okf-02-part-1)
@@ -37,7 +52,7 @@
 - [从 RAG 到 OKF 0.2：让会议助手用对知识（下）](https://www.asterh.me/posts/rag-to-okf-02-part-3)
 <!-- BLOG-POST-LIST:END -->
 
-[去博客看看 →](https://www.asterh.me/posts)
+[更多文章 →](https://www.asterh.me/posts)
 
 <br />
 
@@ -64,11 +79,7 @@
 
 <br />
 
-### 笔记与工具
+**[Aster.H](https://www.asterh.me/)**，我的博客，记技术、项目和日常。<br />
+**[Practical Tech Writing](https://github.com/HuangJingwang/practical-tech-writing)**，把技术实践写清楚的中文写作 Skill。
 
-**[Aster.H](https://www.asterh.me/)** · 技术、项目，也记一点日常。<br />
-**[Practical Tech Writing](https://github.com/HuangJingwang/practical-tech-writing)** · 有事实依据、表达自然的中文技术写作 Skill。<br />
-**[BrushUp](https://github.com/HuangJingwang/brushup)** · 刷题同步、间隔复习与 AI 代码分析。
-
-<br />
-<sub>好奇的东西，写个 demo 看看。</sub>
+<sub>Java / Python / TypeScript / Kotlin · 好奇的东西，写个 demo 看看。</sub>
