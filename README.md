@@ -61,9 +61,9 @@
 ### ✍️ 最近写的
 
 <!-- BLOG-POST-LIST:START -->
+- [Voice Agent 实践与落地（一）——模型接入](https://www.asterh.me/posts/voice-agent-practice-01-model-integration)
 - [从 RAG 到 OKF 0.2：让会议助手用对知识（上）](https://www.asterh.me/posts/rag-to-okf-02-part-1)
 - [从 RAG 到 OKF 0.2：让会议助手用对知识（中）](https://www.asterh.me/posts/rag-to-okf-02-part-2)
-- [从 RAG 到 OKF 0.2：让会议助手用对知识（下）](https://www.asterh.me/posts/rag-to-okf-02-part-3)
 <!-- BLOG-POST-LIST:END -->
 
 [更多文章 →](https://www.asterh.me/posts)
