@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1166" height="184"><desc>Generated with pacman-contribution-graph on Mon Oct 19 2026 22:30:45 GMT+0000 (Coordinated Universal Time)</desc><metadata>
+<svg xmlns="http://www.w3.org/2000/svg" width="1166" height="184"><desc>Generated with pacman-contribution-graph on Tue Oct 20 2026 05:03:04 GMT+0000 (Coordinated Universal Time)</desc><metadata>
 		<info>
-			<frames>377</frames>
+			<frames>274</frames>
 			<frameRate>5</frameRate>
-			<durationMs>75400</durationMs>
-			<generatedOn>2026-10-19T22:30:45.115Z</generatedOn>
+			<durationMs>54800</durationMs>
+			<generatedOn>2026-10-20T05:03:04.132Z</generatedOn>
 		</info>
 	</metadata><rect width="100%" height="100%" fill="#ffffff" /><defs>
                 <symbol id="ghost-blinky-up" viewBox="0 0 20 20">
@@ -513,10 +513,10 @@
 				</use><use href="#ghost-inky-down" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-inky-left" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-inky-right" width="20" height="20" visibility="hidden">
-				</use><use href="#ghost-pinky-up" width="20" height="20" visibility="hidden">
+				</use><use href="#ghost-pinky-up" width="20" height="20" visibility="visible">
 				</use><use href="#ghost-pinky-down" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-pinky-left" width="20" height="20" visibility="hidden">
-				</use><use href="#ghost-pinky-right" width="20" height="20" visibility="visible">
+				</use><use href="#ghost-pinky-right" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-clyde-up" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-clyde-down" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-clyde-left" width="20" height="20" visibility="hidden">
@@ -540,9 +540,9 @@
 				</use><use href="#ghost-pinky-left" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-pinky-right" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-clyde-up" width="20" height="20" visibility="hidden">
-				</use><use href="#ghost-clyde-down" width="20" height="20" visibility="hidden">
+				</use><use href="#ghost-clyde-down" width="20" height="20" visibility="visible">
 				</use><use href="#ghost-clyde-left" width="20" height="20" visibility="hidden">
-				</use><use href="#ghost-clyde-right" width="20" height="20" visibility="visible">
+				</use><use href="#ghost-clyde-right" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-eyes-up" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-eyes-down" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-eyes-left" width="20" height="20" visibility="hidden">
