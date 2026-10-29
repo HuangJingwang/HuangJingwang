@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1166" height="184"><desc>Generated with pacman-contribution-graph on Thu Oct 29 2026 06:05:01 GMT+0000 (Coordinated Universal Time)</desc><metadata>
+<svg xmlns="http://www.w3.org/2000/svg" width="1166" height="184"><desc>Generated with pacman-contribution-graph on Thu Oct 29 2026 13:24:51 GMT+0000 (Coordinated Universal Time)</desc><metadata>
 		<info>
-			<frames>323</frames>
+			<frames>294</frames>
 			<frameRate>5</frameRate>
-			<durationMs>64600</durationMs>
-			<generatedOn>2026-10-29T06:05:01.536Z</generatedOn>
+			<durationMs>58800</durationMs>
+			<generatedOn>2026-10-29T13:24:51.463Z</generatedOn>
 		</info>
 	</metadata><rect width="100%" height="100%" fill="#ffffff" /><defs>
                 <symbol id="ghost-blinky-up" viewBox="0 0 20 20">
@@ -488,8 +488,8 @@
 				</use><use href="#ghost-blinky-left" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-blinky-right" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-inky-up" width="20" height="20" visibility="hidden">
-				</use><use href="#ghost-inky-down" width="20" height="20" visibility="hidden">
-				</use><use href="#ghost-inky-left" width="20" height="20" visibility="visible">
+				</use><use href="#ghost-inky-down" width="20" height="20" visibility="visible">
+				</use><use href="#ghost-inky-left" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-inky-right" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-pinky-up" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-pinky-down" width="20" height="20" visibility="hidden">
@@ -515,8 +515,8 @@
 				</use><use href="#ghost-inky-right" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-pinky-up" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-pinky-down" width="20" height="20" visibility="hidden">
-				</use><use href="#ghost-pinky-left" width="20" height="20" visibility="hidden">
-				</use><use href="#ghost-pinky-right" width="20" height="20" visibility="visible">
+				</use><use href="#ghost-pinky-left" width="20" height="20" visibility="visible">
+				</use><use href="#ghost-pinky-right" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-clyde-up" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-clyde-down" width="20" height="20" visibility="hidden">
 				</use><use href="#ghost-clyde-left" width="20" height="20" visibility="hidden">
