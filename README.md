@@ -61,9 +61,9 @@
 ### ✍️ 最近写的
 
 <!-- BLOG-POST-LIST:START -->
+- [Voice Agent 实践与落地（三）：前后台分离与记忆管理](https://www.asterh.me/posts/voice-agent-practice-03-background-memory)
+- [Voice Agent 实践与落地（二）：从唤醒到多轮对话，拆解实时语音链路](https://www.asterh.me/posts/voice-agent-practice-02-realtime-pipeline)
 - [用 Codex 做了一段 Mina 演示视频](https://www.asterh.me/posts/mina-meeting-video)
-- [2026 年 10 月 Voice 模型对比](https://www.asterh.me/posts/voice-model-comparison-202610)
-- [Voice Agent 实践与落地（一）——模型接入](https://www.asterh.me/posts/voice-agent-practice-01-model-integration)
 <!-- BLOG-POST-LIST:END -->
 
 [更多文章 →](https://www.asterh.me/posts)

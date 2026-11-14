@@ -9,11 +9,11 @@
 <text class="accent" x="674" y="108" font-size="38">5</text>
 <text class="label" x="674" y="139" font-size="11">FOLLOWERS</text>
 <text class="label" x="30" y="191" font-size="11">PRIMARY LANGUAGE / REPOSITORY COUNT (NOT CODE VOLUME)</text>
-<rect x="30.00" y="204" width="400.00" height="9" fill="#67e8f9"/>
-<rect x="430.00" y="204" width="200.00" height="9" fill="#a78bfa"/>
-<rect x="630.00" y="204" width="100.00" height="9" fill="#f0abfc"/>
-<rect x="730.00" y="204" width="100.00" height="9" fill="#fbbf24"/>
-<rect x="830.00" y="204" width="100.00" height="9" fill="#34d399"/>
-<text class="label" x="30" y="238" font-size="12">Python: 4  /  JavaScript: 2  /  TypeScript: 1  /  Kotlin: 1  /  Java: 1</text>
-<text class="label" x="30" y="266" font-size="10">UPDATED 2026-11-14 06:47 UTC  ·  PUBLIC DATA ONLY</text>
+<rect x="30.00" y="204" width="360.00" height="9" fill="#67e8f9"/>
+<rect x="390.00" y="204" width="270.00" height="9" fill="#a78bfa"/>
+<rect x="660.00" y="204" width="90.00" height="9" fill="#f0abfc"/>
+<rect x="750.00" y="204" width="90.00" height="9" fill="#fbbf24"/>
+<rect x="840.00" y="204" width="90.00" height="9" fill="#34d399"/>
+<text class="label" x="30" y="238" font-size="12">Python: 4  /  JavaScript: 3  /  TypeScript: 1  /  Kotlin: 1  /  Java: 1</text>
+<text class="label" x="30" y="266" font-size="10">UPDATED 2026-11-14 18:20 UTC  ·  PUBLIC DATA ONLY</text>
 </g></svg>
