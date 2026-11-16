@@ -61,9 +61,9 @@
 ### ✍️ 最近写的
 
 <!-- BLOG-POST-LIST:START -->
+- [大肥鱼 · QQ 鲸鱼娘](https://www.asterh.me/projects/qq-fish)
 - [2026 年 11 月 Voice 模型对比（11.01—11.15）](https://www.asterh.me/posts/voice-model-comparison-20261115)
 - [Voice Agent 实践与落地（三）：前后台分离与记忆管理](https://www.asterh.me/posts/voice-agent-practice-03-background-memory)
-- [Voice Agent 实践与落地（二）：从唤醒到多轮对话，拆解实时语音链路](https://www.asterh.me/posts/voice-agent-practice-02-realtime-pipeline)
 <!-- BLOG-POST-LIST:END -->
 
 [更多文章 →](https://www.asterh.me/posts)
