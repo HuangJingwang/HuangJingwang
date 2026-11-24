@@ -61,9 +61,9 @@
 ### ✍️ 最近写的
 
 <!-- BLOG-POST-LIST:START -->
+- [Voice Agent 实践与落地（四）：让 AI 当测试用户，给语音 Agent 跑评测](https://www.asterh.me/posts/voice-agent-practice-04-testing-and-evaluation)
 - [我在 QQ 里养了一只大肥鱼](https://www.asterh.me/projects/qq-fish)
 - [2026 年 11 月 Voice 模型对比（11.01—11.15）](https://www.asterh.me/posts/voice-model-comparison-20261115)
-- [Voice Agent 实践与落地（三）：前后台分离与记忆管理](https://www.asterh.me/posts/voice-agent-practice-03-background-memory)
 <!-- BLOG-POST-LIST:END -->
 
 [更多文章 →](https://www.asterh.me/posts)
