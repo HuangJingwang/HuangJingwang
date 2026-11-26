@@ -62,7 +62,7 @@
 
 <!-- BLOG-POST-LIST:START -->
 - [Voice Agent 实践与落地（五）：让 AI 当测试用户，给语音 Agent 跑评测](https://www.asterh.me/posts/voice-agent-practice-04-testing-and-evaluation)
-- [Voice Agent 实践与落地（四）：写入只发生一次](https://www.asterh.me/posts/voice-agent-practice-04-write-once)
+- [Voice Agent 实践与落地（四）：工具调用超时，怎样重试才不会重复写入？](https://www.asterh.me/posts/voice-agent-practice-04-write-once)
 - [我在 QQ 里养了一只大肥鱼](https://www.asterh.me/projects/qq-fish)
 <!-- BLOG-POST-LIST:END -->
 
